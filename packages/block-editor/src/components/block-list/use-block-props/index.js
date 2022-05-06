@@ -12,10 +12,7 @@ import {
 	__unstableGetBlockProps as getBlockProps,
 	getBlockType,
 } from '@wordpress/blocks';
-import {
-	useMergeRefs,
-	__experimentalUseDisabled as useIsDisabled,
-} from '@wordpress/compose';
+import { useMergeRefs, useIsDisabled } from '@wordpress/compose';
 import { useSelect } from '@wordpress/data';
 import warning from '@wordpress/warning';
 
